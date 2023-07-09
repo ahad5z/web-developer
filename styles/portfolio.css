@@ -7,9 +7,22 @@ body{
 
     color: #fd6e0a;
 }
+
+.btn-peimart{
+    border-radius: 5px;
+    background: #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    color: white;
+    padding: 15px 35px;
+}
 /*nav related styles*/
-nav{
-display: flex;
+    nav{
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center; 
+
 
 }
 .nav-title{
@@ -22,6 +35,7 @@ font-weight: 800;
 }
 nav>ul{
     display: flex;
+    align-items: center;
 }
 
 nav>li{
@@ -34,5 +48,12 @@ nav>a{
 
     text-decoration: none;
     color:#474747;
-    
+
+}
+
+/* header rel style*/
+
+.header{
+
+    background-color: #fff8f3;
 }
